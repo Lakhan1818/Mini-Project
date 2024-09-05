@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+  </head>
+  <body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../List/list.html">List</a>
+        <a href="../contact me/contact.html">Contact me</a>
+        <a href="../Images/images.html">Form</a>
+        <a href="../Table/table.html">Table</a>
+        
+    </nav>
+
+    <div class="form-container">
+      <h2>Student Information Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required />
+        </div>
+        <div class="form-group">
+          <label for="father-name">Father Name:</label>
+          <input type="text" id="father-name" name="father-name" required />
+        </div>
+        <div class="form-group">
+          <label for="school-name">School Name:</label>
+          <input type="text" id="school-name" name="school-name" required />
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+        <div class="form-group">
+          <label for="qualification">Last Qualification:</label>
+          <input type="text" id="qualification" name="qualification" required />
+        </div>
+        <div class="form-group">
+          <label for="cn">Contact Number:</label>
+          <input type="text" id="cn" name="cn" required />
+        </div>
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Gender:</label>
+          <div class="gender-options">
+            <label for="male"><input type="radio" id="male" name="gender" value="male" checked> Male</label>
+            <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+            <label for="other"><input type="radio" id="other" name="gender" value="other"> Other</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Hobbies:</label>
+          <input type="checkbox" id="cricket" name="hobbies" value="cricket" checked />
+          <label for="cricket">Playing Cricket</label><br />
+          <input type="checkbox" id="reading" name="hobbies" value="reading" />
+          <label for="reading">Reading Books</label><br />
+          <input type="checkbox" id="coding" name="hobbies" value="coding" />
+          <label for="coding">Interest in Coding</label><br />
+          <input type="checkbox" id="music" name="hobbies" value="music" />
+          <label for="music">Listening to Music</label><br />
+          <input type="checkbox" id="travel" name="hobbies" value="travel" />
+          <label for="travel">Traveling</label>
+        </div>
+        <div class="form-actions">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

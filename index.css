@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+   background-color: aqua;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.profile-pic{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto; 
+
+}
+       
+
+.profile-pic img {
+        width: 100%; /* Image ko div ke andar fit karne ke liye */
+        height: auto; /* Height ko auto set karne ke liye */
+    }
+
+nav {
+    background-color: cyan;
+    overflow: hidden;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+nav a:hover {
+   background-color: cyan;
+}
+.content {
+    padding: 20px;
+}
+.go-top {
+    text-align: center;
+    margin-top: 50px;
+}
+.go-top a {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
